@@ -15,22 +15,22 @@
 
 1. Booking API
 
-  1. Use the following endpoint `/restaurant/` to see the static html page served. NOTE: this API only supports authenticated users.
-  2. Use the following endpoint `/restaurant/booking/tables` with GET method to see the current bookings, as well as add some new booking timings to the database using POST method . NOTE: this API only
+  - Use the following endpoint `/restaurant/` to see the static html page served. NOTE: this API only supports authenticated users.
+  - Use the following endpoint `/restaurant/booking/tables` with GET method to see the current bookings, as well as add some new booking timings to the database using POST method . NOTE: this API only
      supports authenticated users.
 
 2. Menu Items API
   
-  1. Use the following endpoint `/api/menu-items/ ` with GET method to see the available menu items, as well as add some new items to the menu using POST method. NOTE: this API only supports authenticated users.
-  2. Use the following endpoint `/api/menu-items/<int:pk>/` to see a singular menu item, as well as being able to update or remove it. NOTE: this API only supports
+  - Use the following endpoint `/api/menu-items/ ` with GET method to see the available menu items, as well as add some new items to the menu using POST method. NOTE: this API only supports authenticated users.
+  - Use the following endpoint `/api/menu-items/<int:pk>/` to see a singular menu item, as well as being able to update or remove it. NOTE: this API only supports
      authenticated users.
 
 3. Authentication API (Djoser)
 
-  1. Use the following endpoint `/auth/users/` with GET method to view all the current registered users, as well as add a new user using POST method.
-  2. Use the following endpoint `/auth/users/me` with the GET method to view the details of the current logged in user.
-  3. Use the following endpoint `/auth/token/login` with POST method to get the token that is associated with the credentials given.
-  4. Use the following endpoint `/auth/token/logout` with POST method to delete the token that is associated with the credentials given.
+  - Use the following endpoint `/auth/users/` with GET method to view all the current registered users, as well as add a new user using POST method.
+  - Use the following endpoint `/auth/users/me` with the GET method to view the details of the current logged in user.
+  - Use the following endpoint `/auth/token/login` with POST method to get the token that is associated with the credentials given.
+  - Use the following endpoint `/auth/token/logout` with POST method to delete the token that is associated with the credentials given.
 
 ## Testing
 
