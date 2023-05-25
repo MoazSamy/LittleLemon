@@ -3,11 +3,13 @@
 ## How to install this project?
 
 1. Clone the project to your local folder using `git clone`.
-2. Make sure that you have `pipenv` installed using `pip install pipenv`.
-3. Run `pipenv install` in the project directory. (Hint: the directory that includes the piplock file)
-4. Run `pipenv shell` and ensure that you are in the virtual environment.
-5. Run the server using `python manage.py runserver`
-6. Run the tests using `python manage.py test`
+2. Change the MYSQL credentials in the Settings.py file in the LittleLemon directory to match your credentials.
+3. Make sure that you have `pipenv` installed using `pip install pipenv`.
+4. Run `pipenv install` in the project directory. (Hint: the directory that includes the piplock file)
+5. Run `pipenv shell` and ensure that you are in the virtual environment.
+6. Run both the migrations commands `python manage.py makemigrations` and `python manage.py migrate`
+7. Run the server using `python manage.py runserver`
+8. Run the tests using `python manage.py test`
 
 ## Little Lemon Restaurant APIs 
 
