@@ -9,23 +9,21 @@
 5. Run the server using `python manage.py runserver`
 6. Run the tests using `python manage.py test`
 
-## APIs
+## Little Lemon Restaurant APIs 
 
-### Little Lemon Restaurant APIs
-
-1. Booking API
+1. ### Booking API
 
   - Use the following endpoint `/restaurant/` to see the static html page served. NOTE: this API only supports authenticated users.
   - Use the following endpoint `/restaurant/booking/tables` with GET method to see the current bookings, as well as add some new booking timings to the database using POST method . NOTE: this API only
      supports authenticated users.
 
-2. Menu Items API
+2. ### Menu Items API
   
   - Use the following endpoint `/api/menu-items/ ` with GET method to see the available menu items, as well as add some new items to the menu using POST method. NOTE: this API only supports authenticated users.
   - Use the following endpoint `/api/menu-items/<int:pk>/` to see a singular menu item, as well as being able to update or remove it. NOTE: this API only supports
      authenticated users.
 
-3. Authentication API (Djoser)
+3. ### Authentication API (Djoser)
 
   - Use the following endpoint `/auth/users/` with GET method to view all the current registered users, as well as add a new user using POST method.
   - Use the following endpoint `/auth/users/me` with the GET method to view the details of the current logged in user.
