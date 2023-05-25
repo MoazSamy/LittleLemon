@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'LittleLemonAPI',
     'rest_framework',
     'rest_framework.authtoken',
+    'djoser',
 ]
 
 MIDDLEWARE = [
@@ -78,9 +79,13 @@ WSGI_APPLICATION = 'LittleLemon.wsgi.application'
 REST_FRAMEWORK={
     'DEFAULT_AUTHENTICATION_CLASSES':(
         'rest_framework.authentication.TokenAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
     )
 }
-
+# Djoser
+DJOSER={
+    "USER_ID_FIELD":"username"
+}
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
