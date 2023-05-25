@@ -19,7 +19,7 @@
 
 2. ### Menu Items API
   
-  - Use the following endpoint `/api/menu-items/ ` with GET method to see the available menu items, as well as add some new items to the menu using POST method. NOTE: this API only supports authenticated users.
+  - Use the following endpoint `/api/menu-items/` with GET method to see the available menu items, as well as add some new items to the menu using POST method. NOTE: this API only supports authenticated users.
   - Use the following endpoint `/api/menu-items/<int:pk>/` to see a singular menu item, as well as being able to update or remove it. NOTE: this API only supports
      authenticated users.
 
